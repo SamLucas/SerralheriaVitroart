@@ -206,7 +206,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 mb-5">
-            <img src="<?=base_url('src/')?>images/glint_about_1.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            <img src="<?=base_url('src/')?>images/glint_about_1.jfif" widht="100px" alt="Free Website Template by Free-Template.co" class="img-fluid">
           </div>
           <div class="col-lg-5 ml-auto section-title">
             <span class="sub-title mb-2 d-block">a empresa</span>
