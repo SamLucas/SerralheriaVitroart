@@ -449,7 +449,7 @@ RSS Feed: https://feeds.feedburner.com/Free-templateco
 </div> -->
 <p>
   <!-- Link back to Free-Template.co can't be removed. Template is licensed under CC BY 3.0. -->
-  <small class="block">&copy; 2019 Desenvolvido por <strong class="text-white">Samuel Lucas</strong>. <br> Todos os direitos reservados.</small> 
+  <small class="block">&copy; 2019 Desenvolvido por <strong class="text-white">Samuel Lucas Gomes</strong>. <br> Todos os direitos reservados.</small> 
 </p>
 </div>
 
