@@ -45,8 +45,8 @@
     <?php if(isset($_SESSION['notice']) && $_SESSION['notice'] != null): ?>
       <div class="alert alert-success">
         <?php 
-         echo $_SESSION['notice'];
-         $_SESSION['notice'] = null;
+        echo $_SESSION['notice'];
+        $_SESSION['notice'] = null;
         ?>
       </div>
     <?php endif;?>
@@ -193,7 +193,7 @@
           <div class="col-lg-5 ml-auto section-title">
             <span class="sub-title mb-2 d-block">a empresa</span>
             <h2 class="title text-primary mb-3">Sobre-nós</h2>
-            <p class="mb-4">40 anos de muitos projeto, a Vitroart traz consigo muita tradição e profissionalismo, com instalações e serviços por toda cidade de Guarulhos, sempre do lado do consumidor.</p>
+            <p class="mb-4">40 anos de muitos projetos, a Vitroart traz consigo muita tradição e profissionalismo, com instalações e serviços por toda cidade de Guarulhos, sempre do lado do consumidor.</p>
             <div class="d-flex">
               <ul class="list-unstyled ul-check success mr-5">
                 <li>Qualidade</li>
@@ -352,15 +352,15 @@
     <footer class="site-footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 mb-5 mb-lg-0">
+          <div class="col-lg-4 mb-5 mb-lg-0">
             <div class="row mb-5">
               <div class="col-12">
                 <h3 class="footer-heading mb-4">Sobre-nós</h3>
-                <p>40 anos de muitos projeto, a Vitroart traz consigo muita tradição e profissionalismo, com instalações e serviços por toda cidade de Guarulhos, sempre do lado do consumidor.</p>
+                <p>40 anos de muitos projetos, a Vitroart traz consigo muita tradição e profissionalismo, com instalações e serviços por toda cidade de Guarulhos, sempre do lado do consumidor.</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 ml-auto">
+          <div class="col-lg-4 ml-auto">
 
             <div class="row mb-5">
               <div class="col-md-12">
@@ -376,31 +376,37 @@
               </div>
             </div>
           </div>
-
-
-          <div class="row pt-5 mt-5 text-center">
-            <div class="col-md-12">
-              <p><small class="block">&copy; 2019 Desenvolvido por <strong class="text-white">Samuel Lucas</strong>. <br> Todos os direitos reservados.</small> </p>
+           <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="row mb-5">
+              <div class="col-12">
+                <h3 class="footer-heading mb-4">Local</h3>
+                <p>Avenida Tiradentes nº 2451, jardim Pinhal, próximo ao mansão danças.</p>
+              </div>
             </div>
-
           </div>
+
+          <div class="col-md-12 pt-5 mt-5 text-center">
+            <p><small class="block">&copy; 2019 Desenvolvido por <a href="https://www.facebook.com/samuellucassantosgomes"><strong class="text-white">Samuel Lucas</strong></a>. <br> Todos os direitos reservados.</small> </p>
+          </div>
+
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
+  </div>
 
-    <script src="<?=base_url('src/')?>js/jquery-3.3.1.min.js"></script>
-    <script src="<?=base_url('src/')?>js/popper.min.js"></script>
-    <script src="<?=base_url('src/')?>js/bootstrap.min.js"></script>
-    <script src="<?=base_url('src/')?>js/owl.carousel.min.js"></script>
-    <script src="<?=base_url('src/')?>js/aos.js"></script>
-    <script src="<?=base_url('src/')?>js/jquery.sticky.js"></script>
-    <script src="<?=base_url('src/')?>js/stickyfill.min.js"></script>
-    <script src="<?=base_url('src/')?>js/jquery.easing.1.3.js"></script>
-    <script src="<?=base_url('src/')?>js/isotope.pkgd.min.js"></script>
+  <script src="<?=base_url('src/')?>js/jquery-3.3.1.min.js"></script>
+  <script src="<?=base_url('src/')?>js/popper.min.js"></script>
+  <script src="<?=base_url('src/')?>js/bootstrap.min.js"></script>
+  <script src="<?=base_url('src/')?>js/owl.carousel.min.js"></script>
+  <script src="<?=base_url('src/')?>js/aos.js"></script>
+  <script src="<?=base_url('src/')?>js/jquery.sticky.js"></script>
+  <script src="<?=base_url('src/')?>js/stickyfill.min.js"></script>
+  <script src="<?=base_url('src/')?>js/jquery.easing.1.3.js"></script>
+  <script src="<?=base_url('src/')?>js/isotope.pkgd.min.js"></script>
 
-    <script src="<?=base_url('src/')?>js/jquery.fancybox.min.js"></script>
-    <script src="<?=base_url('src/')?>js/main.js"></script>
+  <script src="<?=base_url('src/')?>js/jquery.fancybox.min.js"></script>
+  <script src="<?=base_url('src/')?>js/main.js"></script>
 
 
-  </body>
-  </html>
+</body>
+</html>
